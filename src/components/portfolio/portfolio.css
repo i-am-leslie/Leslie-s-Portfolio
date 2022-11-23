@@ -1,0 +1,47 @@
+.container.quotes__containeer{
+    width:40%;
+    padding-bottom: 4rem;
+   
+    
+}
+.quoters__avatar{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+}
+.quotes{
+    background: var(--color-primary-variant);
+    text-align-last:center ;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.quotes__saying{
+    display: block;
+    font-weight: 300;
+    width: 80%;
+    margin: 0.8rem auto 0;
+ 
+}
+
+/*===== media queries(medium device) =======*/
+@media screen and (max-width:1024px){
+    .container.quotes__containeer{
+        width:60%
+    }
+   
+    }
+    /*===== media queriessmall device) =======*/
+@media screen and (max-width:600px){
+    .container.quotes__containeer{
+        width:var(--container-width-sm);
+    }
+    .quotes__saying{
+        width: var(--container-width-sm);
+     
+    }
+
+}
