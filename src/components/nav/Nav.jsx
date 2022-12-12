@@ -5,7 +5,7 @@ import {FaUserTie} from 'react-icons/fa'
 import {MdWork} from 'react-icons/md'
 import {MdConnectWithoutContact} from 'react-icons/md'
 import {BsChatSquareQuoteFill} from'react-icons/bs'
-import {useState} from 'react'
+
 const nav = () => {
   
   return (
