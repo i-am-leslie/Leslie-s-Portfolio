@@ -2,9 +2,12 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/meli.jpeg'
 import {VscFolderLibrary} from 'react-icons/vsc'
+
 const about = () => {
   return (
+    
     <section id='about'>
+      
       <h5>Get To Know</h5>
       <h2>More About Me</h2>
       <h1 className='dev'>Developer & Programmer</h1>
@@ -19,12 +22,13 @@ const about = () => {
           <div className="about__cards" >
             <article className='about__card' >
               < VscFolderLibrary className='about__icon'/>
-              <h5>Projects</h5>
-              <small>Projects are a way of learning </small>
+              <h5>Projects</h5> 
+              <small>Projects are a way of learning, check out my GitHub for some projects</small> <a  href="https://github.com/i-am-leslie?tab=repositories" target="_blank" className='btn btn-primary'> Click me</a>
 
 
             </article>
           </div>
+          
           <p>
           I am a third year software engineering Student from carleton university, I currently live in ottawa.
           I am currrently seeking experience in my field of study.I am also a member of two societies on campus <a href="https://www.cusaonline.ca" target='_blank'>CUSA</a> and <a href="https://www.scesoc.ca" target='_blank'>SCEsos</a>,
