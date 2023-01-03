@@ -35,7 +35,7 @@ const about = () => {
            where I partake in Projects and events to help peers as well as helping myself develop problem-solving skills along with the ability to communicate effectively with others. <br /> <br /> One of my earliest memories of when i used to be 
           a child was that i loved playing games on my laptop.However there was this day i got a game from my childhood friend and it didn't work on my laptop, I searched the internet for ways i could fix it and tinkered with the game's files and 
           got it working and thus that was how my love for programming sparked. <br /><br />
-          On this site, i plan on sharing some projects i have worked on and some interesting quotes that keep me motivated in life. i am a geek and love exploring technologies because i feel technologies are intriguing. I am also always happy to meet
+          On this site, i plan on sharing some projects i have worked on, sharing more about me and some interesting quotes that keep me motivated in life. i am a geek and love exploring technologies because i feel technologies are intriguing. I am also always happy to meet
            new people,feel free to reach me!
           </p>
           <a href="#contact" className='btn btn-primary'>Lets Talk</a>
