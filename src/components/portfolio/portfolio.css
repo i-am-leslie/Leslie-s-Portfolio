@@ -26,6 +26,9 @@
     margin: 0.8rem auto 0;
  
 }
+.drag_quotes{
+    text-align-last:center ;
+}
 
 /*===== media queries(medium device) =======*/
 @media screen and (max-width:1024px){
