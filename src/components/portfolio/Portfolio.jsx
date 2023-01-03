@@ -2,6 +2,7 @@ import './portfolio.css'
 import nf1 from '../../assets/nf.png'
 import nf2 from '../../assets/williams.jpeg'
 import nf3 from  '../../assets/einst.jpg'
+import nf4 from  '../../assets/meli.jpg'
 
 // import Swiper core and required modules
 import {Pagination} from 'swiper';
@@ -31,7 +32,7 @@ const data=[
     
   },
   {
-    quoter:nf1,
+    quoter:nf4,
     name:'Leslie',
     quotes:'If you want to succed then dont be afraid to fail'
     
