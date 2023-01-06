@@ -8,3 +8,7 @@ Tools used:
 ● Vercel to continuously build and deploy the application ● Prettier to make my code look pretty
 ● React icons a library to add good looking icons
 I will be making more changes and improving the website from time to time so be sure to keep looking out
+
+
+Yet to implement
+The next updates coming to this project would be integrating react-router and adding the route to see some few projects i have worked on
