@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/meli.jpeg'
 import {VscFolderLibrary} from 'react-icons/vsc'
+import { Link } from 'react-router-dom';
 
 const about = () => {
   return (
@@ -23,7 +24,16 @@ const about = () => {
             <article className='about__card' >
               < VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5> 
-              <small>Projects are a way of learning, check out my GitHub for some projects</small> <a  href="https://github.com/i-am-leslie?tab=repositories" target="_blank" className='btn btn-primary'> Click me</a>
+              <small>Click the link below to see some of my Projects</small> <Link to="/projects"  style={{
+                display: 'inline-block',
+                padding: '0.5rem 1rem',
+                margin: '0.5rem 1rem',
+                background: '#000',
+                color: '#fff',
+                borderRadius: '10px',
+                textDecoration: 'none',
+                cursor: 'pointer'
+              }}>Explore</Link>
 
 
             </article>
@@ -31,11 +41,11 @@ const about = () => {
           
           <p>
           I am a third year software engineering Student from carleton university, I currently live in ottawa.
-          I am currrently seeking experience in my field of study.I am also a member of two societies on campus <a href="https://www.cusaonline.ca" target='_blank'>CUSA</a> and <a href="https://www.scesoc.ca" target='_blank'>SCEsoc</a>,
+          I am currrently seeking experience in my field of study.I am also a member of two societies on campus <a href="https://www.cusaonline.ca" target='_blank'>CUSA</a> and <a href="https://www.scesoc.ca" target='_blank'>SCEsos</a>,
            where I partake in Projects and events to help peers as well as helping myself develop problem-solving skills along with the ability to communicate effectively with others. <br /> <br /> One of my earliest memories of when i used to be 
           a child was that i loved playing games on my laptop.However there was this day i got a game from my childhood friend and it didn't work on my laptop, I searched the internet for ways i could fix it and tinkered with the game's files and 
           got it working and thus that was how my love for programming sparked. <br /><br />
-          On this site, i plan on sharing some projects i have worked on, sharing more about me and some interesting quotes that keep me motivated in life. i am a geek and love exploring technologies because i feel technologies are intriguing. I am also always happy to meet
+          On this site,i plan on sharing some projects i have worked on and some interesting quotes that keep me motivated in life. i am a geek and love exploring technologies because i feel technologies are intriguing. I am also always happy to meet
            new people,feel free to reach me!
           </p>
           <a href="#contact" className='btn btn-primary'>Lets Talk</a>

@@ -1,0 +1,14 @@
+.image{
+    width: 40rem;
+    aspect-ratio: 1/1.;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+    
+ }
+ .name {
+    text-align: center;
+ }
+ .description{
+    padding-left: 100px;
+ }
